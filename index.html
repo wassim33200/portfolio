@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamdi Wassim - Data Scientist</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <!-- Theme class added by JS -->
+
+    <!-- Vanta.js Background Container -->
+    <div id="vanta-bg"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="#hero" class="logo">Hamdi<span>Wassim</span></a>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                 <li> <!-- Theme Toggle inside nav for mobile consistency -->
+                    <button id="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i> <!-- Default: Moon (Dark Mode) -->
+                    </button>
+                </li>
+            </ul>
+        </nav>
+         <!-- Hamburger Toggle Button -->
+        <button id="menu-toggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container reveal">
+            <h1>Transforming Data into Actionable Insights</h1>
+            <p class="subtitle reveal" data-sr-delay="100">A passionate Data Scientist specializing in Machine Learning, Deep Learning, and Scalable Data Solutions.</p>
+            <a href="#projects" class="cta-button reveal" data-sr-delay="200">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container reveal">
+             <div class="about-image reveal" data-sr-delay="200">
+                <img src="https://via.placeholder.com/250/00aaff/e0e0e0?text=Alex+C." alt="Alex Chen - Data Scientist">
+            </div>
+            <div class="about-content reveal" data-sr-delay="100">
+                <h2>About Me</h2>
+                <p>Hello! I'm Alex Chen, a Data Scientist driven by curiosity and a passion for uncovering hidden patterns within complex datasets. My journey began with a fascination for statistics and programming, which evolved into a deep dive into machine learning and artificial intelligence.</p>
+                <p>I thrive on solving challenging problems, from building predictive models that drive business decisions to developing sophisticated algorithms for data analysis. I believe data holds the key to innovation, and my goal is to leverage it effectively and ethically.</p>
+                 <p>My approach combines rigorous analytical thinking with creative problem-solving and clear communication. I'm proficient in Python, R, SQL, and various ML/DL frameworks, always eager to learn and adapt to new technologies in this rapidly evolving field.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="reveal">Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal" data-sr-delay="100">
+                    <h4>Programming & Databases</h4>
+                    <ul>
+                        <li>Python (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch)</li>
+                        <li>R (Dplyr, Ggplot2, Shiny)</li>
+                        <li>SQL (PostgreSQL, MySQL, BigQuery)</li>
+                        <li>NoSQL (MongoDB)</li>
+                        <li>Git & Version Control</li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal" data-sr-delay="150">
+                    <h4>Machine Learning & AI</h4>
+                    <ul>
+                        <li>Supervised Learning (Regression, Classification)</li>
+                        <li>Unsupervised Learning (Clustering, Dimensionality Reduction)</li>
+                        <li>Deep Learning (CNNs, RNNs, Transformers)</li>
+                        <li>Natural Language Processing (NLP)</li>
+                        <li>Model Evaluation & Tuning</li>
+                    </ul>
+                </div>
+                 <div class="skill-category reveal" data-sr-delay="200">
+                    <h4>Data Engineering & Big Data</h4>
+                    <ul>
+                        <li>ETL Pipelines</li>
+                        <li>Apache Spark (PySpark)</li>
+                        <li>Cloud Platforms (AWS, GCP, Azure)</li>
+                        <li>Docker & Kubernetes</li>
+                        <li>Data Warehousing Concepts</li>
+                    </ul>
+                </div>
+                 <div class="skill-category reveal" data-sr-delay="250">
+                    <h4>Data Visualization & Tools</h4>
+                    <ul>
+                        <li>Tableau / Power BI</li>
+                        <li>Matplotlib, Seaborn, Plotly</li>
+                        <li>Streamlit / Dash</li>
+                        <li>Jupyter Notebooks / VS Code</li>
+                        <li>Statistical Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="reveal">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal" data-sr-interval="100">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/1a1a3a/00f0c0?text=Customer+Churn+Prediction" alt="Customer Churn Prediction">
+                    </div>
+                    <div class="project-content">
+                        <h3>Customer Churn Prediction</h3>
+                        <p>Developed a model to predict customer churn for a telecom company, achieving 85% accuracy using XGBoost. Identified key drivers of churn, enabling targeted retention strategies.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Scikit-learn</span><span>XGBoost</span><span>Pandas</span><span>MLOps</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" title="View Code on GitHub"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" target="_blank" title="Read Case Study"><i class="fas fa-book-open"></i> Case Study</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                 <div class="project-card reveal" data-sr-interval="100">
+                    <div class="project-image">
+                         <img src="https://via.placeholder.com/400x200/1a1a3a/00aaff?text=Real-time+Sentiment+Analysis" alt="Real-time Sentiment Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-time Sentiment Analysis Dashboard</h3>
+                        <p>Built an interactive dashboard using Streamlit and NLP techniques (BERT) to analyze real-time sentiment from social media data related to specific keywords. Visualized trends and polarity shifts.</p>
+                         <div class="project-tags">
+                            <span>Python</span><span>NLP</span><span>Transformers</span><span>BERT</span><span>Streamlit</span><span>Plotly</span>
+                        </div>
+                        <div class="project-links">
+                           <a href="#" target="_blank" title="View Code on GitHub"><i class="fab fa-github"></i> GitHub</a>
+                           <a href="#" target="_blank" title="Live Demo (Example)"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                 <div class="project-card reveal" data-sr-interval="100">
+                    <div class="project-image">
+                         <img src="https://via.placeholder.com/400x200/1a1a3a/8a2be2?text=Image+Classification+(CNN)" alt="Image Classification Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Image Classification</h3>
+                         <p>Implemented a Convolutional Neural Network (CNN) using PyTorch to classify medical images (e.g., detecting anomalies) with high precision and recall. Employed data augmentation & transfer learning.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Deep Learning</span><span>PyTorch</span><span>CNN</span><span>Computer Vision</span><span>AWS</span>
+                        </div>
+                         <div class="project-links">
+                            <a href="#" target="_blank" title="View Code on GitHub"><i class="fab fa-github"></i> GitHub</a>
+                             <a href="#" target="_blank" title="View Research Paper"><i class="fas fa-file-alt"></i> Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+             <h2 class="reveal">Experience & Education</h2>
+             <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Senior Data Scientist</h4>
+                        <h5>Innovatech Solutions | 2022 - Present</h5>
+                        <p>Leading ML projects, mentoring junior scientists, and designing scalable data pipelines on cloud platforms. Focused on causal inference and experimentation.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                 <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Data Scientist</h4>
+                        <h5>Innovatech Solutions | 2020 - 2022</h5>
+                        <p>Developed and deployed predictive models (customer segmentation, LTV, predictive maintenance). Automated reporting processes and improved model monitoring.</p>
+                    </div>
+                </div>
+                 <!-- Item 3 -->
+                 <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Data Analyst Intern</h4>
+                        <h5>Data Insights Co. | Summer 2019</h5>
+                        <p>Performed exploratory data analysis, created dashboards using Tableau, and assisted with data cleaning for various client projects.</p>
+                    </div>
+                </div>
+                 <!-- Item 4 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>M.S. in Data Science</h4>
+                        <h5>University of Advanced Computing | 2018 - 2020</h5>
+                        <p>Specialized in Machine Learning and Statistical Modeling. Thesis on Deep Learning for Time-Series Forecasting.</p>
+                    </div>
+                </div>
+                 <!-- Item 5 -->
+                 <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>B.S. in Computer Science, Minor in Statistics</h4>
+                        <h5>State University | 2014 - 2018</h5>
+                        <p>Graduated with honors. Strong foundation in algorithms, software engineering, and statistical theory.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container reveal">
+            <h2>Get In Touch</h2>
+            <p>I'm passionate about leveraging data to solve complex problems and always open to discussing new ideas, collaborations, or opportunities. Let's connect!</p>
+            <a href="mailto:alex.chen.ds@email.com" class="cta-button reveal" data-sr-delay="100">Email Me</a>
+            <div class="social-links reveal" data-sr-delay="200">
+                <a href="https://www.linkedin.com/in/alexchendatasci" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/alexchen-ds" target="_blank" title="GitHub"><i class="fab fa-github-square"></i></a>
+                <a href="https://twitter.com/alexchen_ds" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" target="_blank" title="Kaggle Profile"><i class="fab fa-kaggle"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© <span id="current-year"></span> Alex Chen. Crafted with Data & Code.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Initialization Script -->
+    <script src="script.js" defer></script>
+</body>
+</html>
