@@ -181,7 +181,7 @@ nav ul li a:hover, nav ul li a.active {
 }
 #hero h1 { color: var(--text-color); text-shadow: 0 0 15px var(--shadow-color-primary); }
 body.light-theme #hero h1 { text-shadow: 0 2px 5px var(--shadow-color-dark); color: var(--primary-color); }
-#hero .subtitle { font-size: clamp(1.1rem, 3vw, 1.4rem); margin-bottom: 2rem; font-weight: 300; max-width: 600px; }
+#hero .subtitle { font-size: clamp(1.1rem, 3vw, 1.4rem); margin-bottom: 2rem; font-weight: 300; }
 
 .cta-button {
     display: inline-block; background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
