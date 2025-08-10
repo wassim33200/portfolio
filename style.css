@@ -194,6 +194,30 @@ body.light-theme #hero h1 { text-shadow: 0 2px 5px var(--shadow-color-dark); col
 }
 .cta-button:hover { transform: translateY(-3px) scale(1.05); box-shadow: 0 8px 25px var(--shadow-color-secondary); }
 
+/* Secondary CTA Button */
+.cta-button-secondary {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.05); /* subtle transparent fill */
+    color: var(--secondary-color);
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid var(--secondary-color); /* brighter outline for contrast */
+    box-shadow: 0 0 10px rgba(0, 240, 192, 0.3); /* soft glow */
+    transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-button-secondary:hover {
+    background: var(--secondary-color);
+    color: #fff;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 240, 192, 0.5);
+}
+
 /* --- About Section --- */
 #about .container { display: flex; gap: 3rem; align-items: center; flex-wrap: wrap; } /* Allow wrap */
 #about .about-content { flex: 2; min-width: 300px; }
