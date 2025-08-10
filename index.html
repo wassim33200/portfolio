@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAVUQjfIuh02OUXd0tw8BriiPnXWtTJ0GeNlRcQhpthZXfWH3QfUO-BILzGuK3sw8e90oKathXeYZaLEo&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
 </head>
 <body> <!-- Theme class added by JS -->
 
@@ -48,6 +50,7 @@
             <h1>Transforming Data into Actionable Insights</h1>
             <p class="subtitle reveal" data-sr-delay="100">Final-year Data Science student | Python, R, ML/DL | Game developer in Unity | Passionate about ethical AI and real-world impact</p>
             <a href="#projects" class="cta-button reveal" data-sr-delay="200">View My Work</a>
+            <a href="#donation" class="cta-button reveal" data-sr-delay="200">Donate</a>
         </div>
     </section>
 
@@ -244,6 +247,15 @@
         </div>
     </section>
 
+    <!-- PayPal Donation Button -->
+    <section id="donation" class="reveal">
+        <div class="container">
+            <h2>Support My Work</h2>
+            <p style="text-align: center;">If you find my projects helpful, consider supporting my work with a donation. Your contributions help me continue developing open-source tools and resources.</p>
+            <div id="paypal-container-Z2CRDH67TK6GY"></div>
+        </div>  
+    </section>
+
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -255,6 +267,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script>paypal.HostedButtons({hostedButtonId: "Z2CRDH67TK6GY"}).render("#paypal-container-Z2CRDH67TK6GY")</script>
 
     <!-- Initialization Script -->
     <script src="script.js" defer></script>

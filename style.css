@@ -331,6 +331,26 @@ body.dark-theme .project-tags span { background-color: rgba(0, 170, 255, 0.15); 
 }
 .social-links a:hover { transform: translateY(-5px) scale(1.1); color: var(--primary-color); }
 
+/* --- PayPal Donation Section --- */
+#donation {
+    padding: 2rem 0 4rem 0;
+
+    /* Blur background effect */
+    background: rgba(20, 20, 40, 0.363); /* semi-transparent so blur is visible */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+    /* Optional for style */
+    border-radius: 15px;
+}
+
+/* Center the donation content */
+.donation-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
 /* --- Footer --- */
 footer {
     background-color: var(--footer-bg-color); color: var(--text-color); opacity: 0.8;
